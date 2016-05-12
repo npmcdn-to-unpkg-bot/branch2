@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang ="en" ng-app="myApp">
+	<title>
+		Training
+	</title>
+	<head>
+	
+		<meta charset="utf"/>
+
+		<script type="text/javascript" src="../lib/angular/angular.js"></script>	
+			<script type="text/javascript" src="app.js"></script>
+
+			
+	</head>
+	<body ng-controller="MainController as main">
+		<div id="parent">
+			<p id="next"> Tuesday Barbecue Designs</p>
+			
+			<p> {{main.user1.name | first}}</p>
+			<p> {{randomValue |currency:2}}</p>
+
+		</div>
+		
+
+
+
+		
+		<footer>
+			Legal
+		</footer>
+	</body>
+</html>
+
+<!-- <canvas id= "drawing" width= "400" height= "200" style= "border:1px solid black"> </canvas>--!>
