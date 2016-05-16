@@ -1,0 +1,27 @@
+#parent{
+	border:2px solid black;
+	
+}
+
+div.ng-scope{
+
+}
+
+.ng-binding{
+color:red;
+background-color:white;
+}
+
+input.ng-touched{
+	color: white;
+	background: red;
+}
+
+input.ng-dirty{
+	color:white;
+	background:green;
+}
+
+input.ng-pristine{
+	background:orange;
+}
