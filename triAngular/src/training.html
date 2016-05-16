@@ -18,6 +18,7 @@
 			
 			<p> {{main.user1.name | first}}</p>
 			<p> {{randomValue |currency:2}}</p>
+			<p> <select ng-model="main.user1.name" ng-options="name for name in main.newlist "></select></p>
 
 		</div>
 		
